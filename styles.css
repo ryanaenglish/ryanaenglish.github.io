@@ -31,6 +31,13 @@ h1 sub{
     color: honeydew;
     vertical-align: baseline;
 }
+section
+{
+    border-top: 2px dashed hotpink;
+    padding: 50px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
 img
 {
     border-radius: 50%;
@@ -38,11 +45,13 @@ img
 .hero
 {
 
-    outline:1px greenyellow;
+    outline:1px hotpink;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 0;
+    padding: 0;
 }
 .hero img
 {
